@@ -131,7 +131,8 @@ elif st.session_state.get('current_page') == "Use Model":
     # Load model and setup prediction form (current prediction code)
     
     # Load the trained model pipeline
-    with open('C:\\manim and mathplt\\titanic_project\\titanic_pipeline.pkl', 'rb') as file:
+    with open('titanic_pipeline.pkl', 'rb') as file:
+
         model_pipeline = pickle.load(file)
 
     st.write("Enter your details below to predict whether you would have survived:")
