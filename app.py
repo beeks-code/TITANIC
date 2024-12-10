@@ -173,7 +173,7 @@ elif st.session_state.get('current_page') == "Use Model":
             st.markdown(f"<h2 style='text-align: center; color: red;'>{result}</h2>", unsafe_allow_html=True)
             st.markdown(f"<h3 style='text-align: center; color: grey;'> {death_msg} </h3>", unsafe_allow_html=True)
             st.write(f"**Rest in Peace  {name}.**")
-            st.image("titanic_project/image.jpg",width=400)
+            # st.image("titanic_project/image.jpg",width=400)
 
 
     # Home button
